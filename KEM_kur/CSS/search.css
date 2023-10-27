@@ -21,7 +21,7 @@ flex-shrink: 0;
     display: flex;
     /* width: 311px; */
     height: 36px;
-    padding: 6.5px 224px 7.5px 12px;
+    padding: 6.5px 20px 7.5px 20px;
     align-items: center;
     /* gap: 8px; */
 }
@@ -36,7 +36,8 @@ flex-shrink: 0;
     /* border: 1px; */
     border: 1px solid var(--grey, #C4C4C4);
     outline-color: var(--light-grey);
-    outline-width: thick;
+    outline-color: #386FDB;
+    /* outline-width: thick; */
     border-radius: 10px;
     background: #fff;
 }
@@ -47,6 +48,7 @@ flex-shrink: 0;
     /* padding-block: inherit; */
     border-width:0px;
     border:none;
+    width: 100%s;
 }
 :active, :hover, :focus {
     outline: 0;
@@ -59,5 +61,6 @@ flex-shrink: 0;
     /* display: flex; */
     /* justify-content: center; */
     max-width: 1800px;
-    margin: auto;
+    margin: 0 auto;
+    /* margin: auto 0; */
 }

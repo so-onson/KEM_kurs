@@ -32,14 +32,14 @@
 .text-title {
     align-self: stretch;
     color: #000;
-text-align: center;
+    text-align: center;
 
 /* text */
-font-family: IBM Plex Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 166.667% */
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 23px; */ /* 166.667% */
 }
 
 .text {
@@ -56,20 +56,23 @@ line-height: 23px; /* 164.286% */
 
 .form-bt {
     display: flex;
-padding: 12px 50px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-align-self: stretch;
+    padding: 12px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 2px solid var(--grey, #C4C4C4);
+}
 
-border-radius: 10px;
-border: 1px solid var(--grey, #C4C4C4);
+.form-bt:hover {
+    border-color: #386FDB;
 }
 
 .group-form {
     display: grid;
     width: 100%;
-    gap: 8px;
+    gap: 10px;
     padding: 10px 0px;
 }
 

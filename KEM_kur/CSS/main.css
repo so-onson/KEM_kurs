@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 350px;
+    max-width: 380px;
     min-width: 280px;
     /* background-color: aquamarine; */
     display: flex;
@@ -40,7 +40,7 @@ body {
     /* justify-content: flex-end; */
     justify-items: center;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .link {
@@ -143,8 +143,6 @@ header {
 
 }
 
-
-
 /* Content */
 
 .content {
@@ -156,7 +154,11 @@ header {
     /* margin-left: auto; */
     /* margin-right: auto; */
     justify-content: center;
+    flex-wrap: wrap;
     /* justify-items: flex-start; */
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 60px;
 }
 
 .sections {
@@ -164,22 +166,35 @@ header {
     display: flex;
     flex-wrap: wrap;
     /* width: 1820px; */
-    padding: 110px 50px;
+    padding: 80px 50px;
     justify-content: center;
     /* align-items: flex-start; */
-    gap: 50px 160px;
+    gap: 50px 100px;
 }
 
 .image {
-height: 300px;
-background: #FFF;
-box-shadow: 0 2px 66px var(--shadowHeaderColor);
-/* box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.20); */
-border-radius: 20px;
-background-image: url("./../images/content/historyIU6.jpg");
-object-fit: cover;
-max-width: 350px;
-/* min-width: 280px; */
+
+height: 300px;
+
+background: #FFF;
+
+box-shadow: 0 2px 66px var(--shadowHeaderColor);
+
+/* box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.20); */
+
+border-radius: 15px;
+
+background-image: url("./../images/content/historyIU6.jpg");
+
+object-fit: cover;
+
+/* max-width: 350px; */
+
+object-fit: contain;
+
+width: 100%;
+
+/* min-width: 280px; */
 }
 
 footer {
@@ -200,33 +215,25 @@ footer {
 }
 
 input {
-
-display: flex;
-
-padding: 14px 20px;
-
-justify-content: center;
-
-align-items: center;
-
-gap: 10px;
-
-/* align-self: stretch; */
-
-border-radius: 10px;
-
-border: 1px solid var(--grey, #C4C4C4);
-
-outline-color: var(--light-grey);
-
-outline-width: thick;
+display: flex;
+padding: 14px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+/* align-self: stretch; */
+border-radius: 10px;
+border: 1px solid var(--grey, #C4C4C4);
+outline-color: var(--light-grey);
+outline-color: #386FDB;
+outline-width: thick;
+width: auto;
 }
 
 p {
-    margin: 50px;
+    margin: 50px 50px 30px 0px;
     /* padding-right: 1500px; */
-    /* margin-left: 50px; */
-    margin-top: 50px;
+    /* margin-left: 0px; */
+    /* margin-top: 50px; */
 }
 
 
@@ -242,7 +249,7 @@ p {
 
     /* box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.20); */
 
-    border-radius: 20px;
+    border-radius: 1%;
 
     /* background-image: url("./../images/content/historyIU6.jpg"); */
 
