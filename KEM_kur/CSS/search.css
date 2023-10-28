@@ -56,11 +56,3 @@ flex-shrink: 0;
 
 }
 
-.searcher {
-    padding: 10px 50px 10px 50px;
-    /* display: flex; */
-    /* justify-content: center; */
-    max-width: 1800px;
-    margin: 0 auto;
-    /* margin: auto 0; */
-}
